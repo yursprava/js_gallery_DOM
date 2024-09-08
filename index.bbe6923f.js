@@ -1,0 +1,2 @@
+document.querySelectorAll(".gallery__thumb").forEach(function(t){var e=t.parentNode.getAttribute("href");t.setAttribute("mydata",e),t.parentNode.href=""});var t=document.querySelector(".gallery"),e=document.querySelector(".gallery__large-img");t.addEventListener("click",function(t){if("IMG"===t.target.tagName){t.preventDefault(),t.stopPropagation();var r=t.target.getAttribute("mydata");r&&e.setAttribute("src",r)}});
+//# sourceMappingURL=index.bbe6923f.js.map
